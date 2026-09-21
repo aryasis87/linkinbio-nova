@@ -4,10 +4,10 @@ import "./globals.css";
 const sora = Sora({ subsets: ["latin"], variable: "--font-sora", weight: ["400", "600", "700"] });
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 
-const __jsonld = {"@context":"https://schema.org","@type":"ProfilePage","mainEntity":{"@type":"Person","name":"Nova Ardhana","jobTitle":"Creative Technologist","url":"https://nova.pintuweb.com","inLanguage":"id"}};
+const __jsonld = {"@context":"https://schema.org","@type":"ProfilePage","mainEntity":{"@type":"Person","name":"Nova Ardhana","jobTitle":"Creative Technologist","url":"https://linkinbio-nova.vercel.app","inLanguage":"id"}};
 
 export const metadata = {
-  metadataBase: new URL("https://nova.pintuweb.com"),
+  metadataBase: new URL("https://linkinbio-nova.vercel.app"),
   title: "Nova Ardhana — Links",
   description: "Link in bio creative technologist Nova Ardhana: semua karya, tulisan, dan kontak dalam satu tempat.",
   applicationName: "Nova Ardhana",
@@ -15,11 +15,11 @@ export const metadata = {
   authors: [{ name: "Nova Ardhana" }],
   creator: "Nova Ardhana",
   publisher: "Nova Ardhana",
-  alternates: { canonical: "https://nova.pintuweb.com" },
+  alternates: { canonical: "https://linkinbio-nova.vercel.app" },
   openGraph: {
     type: "website",
     locale: "id_ID",
-    url: "https://nova.pintuweb.com",
+    url: "https://linkinbio-nova.vercel.app",
     siteName: "Nova Ardhana",
     title: "Nova Ardhana — Links",
     description: "Link in bio creative technologist Nova Ardhana: semua karya, tulisan, dan kontak dalam satu tempat.",
