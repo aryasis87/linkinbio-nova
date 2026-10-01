@@ -1,5 +1,6 @@
+const SITE = "https://linkinbio-nova.vercel.app";
+
 export default function sitemap() {
-  return [
-    { url: "https://linkinbio-nova.vercel.app", lastModified: new Date(), changeFrequency: "monthly", priority: 1 },
-  ];
+  const now = new Date();
+  return ["", "/karya", "/kolaborasi"].map((r, i) => ({ url: SITE + r, lastModified: now, changeFrequency: "monthly", priority: i ? 0.7 : 1 }));
 }
